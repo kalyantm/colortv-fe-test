@@ -88,7 +88,7 @@ const UserView = () => {
 					</Box>
 				</Box>
 			</Grid>
-			<Grid item xs={10} className={classes.gridWrapper}>
+			<Grid item xs={10}>
 				{photos.length > 0 ? (
 					<PhotoListGrid photos={photos} />
 				) : (
@@ -125,10 +125,6 @@ const useStyles = makeStyles((theme: Theme) => ({
 	avatar: {
 		height: 128,
 		width: 128,
-	},
-	gridWrapper: {
-		margin: '0 auto',
-		padding: theme.spacing(6),
 	},
 }));
 
