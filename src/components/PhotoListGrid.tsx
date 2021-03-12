@@ -91,7 +91,7 @@ const useStyles = makeStyles((theme: Theme) => ({
 	},
 	carousel: {
 		width: 1024,
-		height: 768,
+		height: 700,
 		'& .CarouselItem': {
 			width: '100%',
 			height: '100%',
