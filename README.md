@@ -10,6 +10,7 @@ React with typescript boilerplate
 
 # Things I would have done better with more time
 
+-   Mobile UI - looks very messy now
 -   Handling some edge cases (like wrong parameter in the page url, better loading screens and transitions, etc)
 -   Better styling. Looks pretty good, but could be better
 -   Better separation of concerns in terms of code

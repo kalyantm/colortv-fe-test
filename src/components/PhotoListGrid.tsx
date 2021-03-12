@@ -47,7 +47,7 @@ const PhotoListGrid = ({ photos }: { photos: Array<Photo> }) => {
 					<Toolbar>
 						<IconButton
 							edge="end"
-							color="black"
+							color="primary"
 							onClick={() => {
 								setFullScreenView(false);
 								setSelectedImage(null);
